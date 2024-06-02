@@ -1,0 +1,87 @@
+body {
+  background-image: url('./bg.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f39c12;
+}
+
+
+.content-container {
+  min-height: calc(100vh - 120px); 
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+
+.address {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.map-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+

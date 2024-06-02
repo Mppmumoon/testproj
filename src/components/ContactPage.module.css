@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    min-height: calc(100vh - 120px); 
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.socialIcons {
+    margin-top: 30px;
+}
+
+.socialIcons a {
+    margin: 0 15px;
+    font-size: 2em;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+    color: #f39c12;
+}
